@@ -1,4 +1,4 @@
-// OpenCV____Face and Eye Detection
+// OpenCV____Face and Eye Detectin
 
 use opencv::{core, highgui, imgproc, objdetect, prelude::*, types, videoio, Result};
 
