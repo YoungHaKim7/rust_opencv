@@ -4,7 +4,7 @@ use opencv::{core, highgui, imgproc, objdetect, prelude::*, types, videoio, Resu
 
 fn main() -> Result<()> {
     let mut camera = videoio::VideoCapture::new(0, videoio::CAP_ANY)?;
-    let xml = "haarcascade_eye.xml";
+    let xml = "haarcascade_frontalface_default.xml";
     let mut face_detector = objdetect::CascadeClassifier::new(xml)?;
     let mut img = Mat::default();
 
